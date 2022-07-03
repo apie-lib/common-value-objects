@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1656853662">
+  <project timestamp="1656853662">
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Enums/Gender.php">
+      <metrics loc="9" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Exceptions/InvalidPhpRegularExpression.php">
+      <class name="Apie\CommonValueObjects\Exceptions\InvalidPhpRegularExpression" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="11" type="stmt" count="6"/>
+      <line num="12" type="stmt" count="6"/>
+      <line num="14" type="stmt" count="6"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Exceptions/RangeMismatchException.php">
+      <class name="Apie\CommonValueObjects\Exceptions\RangeMismatchException" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="11" type="stmt" count="3"/>
+      <line num="12" type="stmt" count="3"/>
+      <line num="14" type="stmt" count="3"/>
+      <line num="15" type="stmt" count="3"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/Identifier.php">
+      <class name="Apie\CommonValueObjects\Identifiers\Identifier" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="13" type="stmt" count="12"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/KebabCaseSlug.php">
+      <class name="Apie\CommonValueObjects\Identifiers\KebabCaseSlug" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="13" type="stmt" count="12"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/PascalCaseSlug.php">
+      <class name="Apie\CommonValueObjects\Identifiers\PascalCaseSlug" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="13" type="stmt" count="12"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/Uuid.php">
+      <class name="Apie\CommonValueObjects\Identifiers\Uuid" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="56"/>
+      <line num="13" type="stmt" count="56"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/UuidV1.php">
+      <class name="Apie\CommonValueObjects\Identifiers\UuidV1" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="createRandom" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/UuidV2.php">
+      <class name="Apie\CommonValueObjects\Identifiers\UuidV2" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="11" type="method" name="createRandom" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/UuidV3.php">
+      <class name="Apie\CommonValueObjects\Identifiers\UuidV3" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="11" type="method" name="createRandom" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <metrics loc="19" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/UuidV4.php">
+      <class name="Apie\CommonValueObjects\Identifiers\UuidV4" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="createRandom" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/UuidV5.php">
+      <class name="Apie\CommonValueObjects\Identifiers\UuidV5" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="11" type="method" name="createRandom" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <metrics loc="19" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Identifiers/UuidV6.php">
+      <class name="Apie\CommonValueObjects\Identifiers\UuidV6" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="createRandom" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Names/FirstName.php">
+      <class name="Apie\CommonValueObjects\Names\FirstName" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="13" type="stmt" count="12"/>
+      <line num="16" type="method" name="convert" visibility="protected" complexity="1" crap="1" count="12"/>
+      <line num="18" type="stmt" count="12"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Names/LastName.php">
+      <class name="Apie\CommonValueObjects\Names\LastName" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="14"/>
+      <line num="13" type="stmt" count="14"/>
+      <line num="16" type="method" name="convert" visibility="protected" complexity="1" crap="1" count="14"/>
+      <line num="18" type="stmt" count="14"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Ranges/DateTimeRange.php">
+      <class name="Apie\CommonValueObjects\Ranges\DateTimeRange" namespace="global">
+        <metrics complexity="5" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="5" elements="17" coveredelements="7"/>
+      </class>
+      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="22" type="stmt" count="4"/>
+      <line num="23" type="stmt" count="4"/>
+      <line num="24" type="stmt" count="4"/>
+      <line num="27" type="method" name="createRandom" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="43" type="method" name="validateState" visibility="private" complexity="2" crap="2" count="9"/>
+      <line num="45" type="stmt" count="9"/>
+      <line num="46" type="stmt" count="3"/>
+      <metrics loc="50" ncloc="50" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="5" elements="17" coveredelements="7"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Regexes/PhpRegularExpression.php">
+      <class name="Apie\CommonValueObjects\Regexes\PhpRegularExpression" namespace="global">
+        <metrics complexity="4" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="2" elements="12" coveredelements="3"/>
+      </class>
+      <line num="15" type="method" name="validate" visibility="public" complexity="2" crap="2" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="6"/>
+      <line num="22" type="method" name="createRandom" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <metrics loc="35" ncloc="35" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="2" elements="12" coveredelements="3"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Texts/DatabaseText.php">
+      <class name="Apie\CommonValueObjects\Texts\DatabaseText" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="10"/>
+      <line num="13" type="stmt" count="10"/>
+      <line num="16" type="method" name="convert" visibility="protected" complexity="1" crap="1" count="10"/>
+      <line num="18" type="stmt" count="10"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Texts/NonEmptyString.php">
+      <class name="Apie\CommonValueObjects\Texts\NonEmptyString" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="10"/>
+      <line num="13" type="stmt" count="10"/>
+      <line num="16" type="method" name="convert" visibility="protected" complexity="1" crap="1" count="10"/>
+      <line num="18" type="stmt" count="10"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Texts/SmallDatabaseText.php">
+      <class name="Apie\CommonValueObjects\Texts\SmallDatabaseText" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="getRegularExpression" visibility="public" complexity="1" crap="1" count="10"/>
+      <line num="13" type="stmt" count="10"/>
+      <line num="16" type="method" name="convert" visibility="protected" complexity="1" crap="1" count="10"/>
+      <line num="18" type="stmt" count="10"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/home/runner/work/common-value-objects/common-value-objects/src/Texts/StrongPassword.php">
+      <class name="Apie\CommonValueObjects\Texts\StrongPassword" namespace="global">
+        <metrics complexity="9" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="8" elements="19" coveredelements="16"/>
+      </class>
+      <line num="13" type="method" name="getMinLength" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="15" type="stmt" count="8"/>
+      <line num="18" type="method" name="getMaxLength" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="23" type="method" name="getAllowedSpecialCharacters" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="25" type="stmt" count="8"/>
+      <line num="28" type="method" name="getMinSpecialCharacters" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="30" type="stmt" count="8"/>
+      <line num="33" type="method" name="getMinDigits" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="35" type="stmt" count="8"/>
+      <line num="38" type="method" name="getMinLowercase" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="40" type="stmt" count="8"/>
+      <line num="43" type="method" name="getMinUppercase" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="45" type="stmt" count="8"/>
+      <line num="48" type="method" name="convert" visibility="protected" complexity="1" crap="1" count="8"/>
+      <line num="50" type="stmt" count="8"/>
+      <line num="53" type="method" name="getOpenapiSchema" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <metrics loc="62" ncloc="62" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="8" elements="19" coveredelements="16"/>
+    </file>
+    <metrics files="21" loc="471" ncloc="471" classes="20" methods="36" coveredmethods="27" conditionals="0" coveredconditionals="0" statements="67" coveredstatements="36" elements="103" coveredelements="63"/>
+  </project>
+</coverage>
