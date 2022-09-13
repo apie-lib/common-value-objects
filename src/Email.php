@@ -24,7 +24,7 @@ class Email implements StringValueObjectInterface
     use IsStringValueObject;
 
 
-    public static function createRandom(Generator $generator)
+    public static function createRandom(Generator $generator): self
     {
         return new Email($generator->email());
     }
